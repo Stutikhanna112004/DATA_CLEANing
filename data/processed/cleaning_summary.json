@@ -1,0 +1,28 @@
+{
+  "users": {
+    "input_rows": 1500,
+    "duplicates_dropped": 0,
+    "missing_values_found": 0,
+    "negative_follower_counts_found": 0,
+    "output_rows": 1500
+  },
+  "posts": {
+    "input_rows": 12360,
+    "exact_duplicates_dropped": 360,
+    "rows_with_html_entities_fixed": 328,
+    "timestamp_format_counts": {
+      "iso_datetime": 4805,
+      "unix_epoch": 3669,
+      "dd_mm_yyyy": 3526
+    },
+    "timestamp_unparseable": 0,
+    "negative_likes_fixed": 509,
+    "missing_values": {
+      "platform": 1784,
+      "text_content": 1688,
+      "likes": 1814
+    },
+    "output_rows": 12000,
+    "orphan_user_ids_in_posts": 0
+  }
+}

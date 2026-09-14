@@ -1,0 +1,133 @@
+{
+  "platform_distribution": {
+    "Facebook": 2074,
+    "YouTube": 2073,
+    "Twitter": 2049,
+    "Reddit": 2031,
+    "Instagram": 1989
+  },
+  "monthly_post_counts": {
+    "2024-05": 1038,
+    "2024-06": 979,
+    "2024-07": 996,
+    "2024-08": 1015,
+    "2024-09": 974,
+    "2024-10": 1029,
+    "2024-11": 1025,
+    "2024-12": 1035,
+    "2025-01": 1007,
+    "2025-02": 914,
+    "2025-03": 1013,
+    "2025-04": 975
+  },
+  "follower_count_stats": {
+    "count": 1500.0,
+    "mean": 24964.019333333334,
+    "std": 14185.47745677755,
+    "min": 109.0,
+    "25%": 12771.75,
+    "50%": 24741.5,
+    "75%": 37097.25,
+    "max": 49944.0
+  },
+  "engagement_stats": {
+    "likes": {
+      "count": 10186.0,
+      "mean": 2491.864716277243,
+      "std": 1437.8262813272368,
+      "min": 0.0,
+      "25%": 1236.0,
+      "50%": 2498.0,
+      "75%": 3722.75,
+      "max": 5000.0
+    },
+    "shares": {
+      "count": 12000.0,
+      "mean": 1007.1671666666666,
+      "std": 575.0722824707728,
+      "min": 0.0,
+      "25%": 510.0,
+      "50%": 1018.0,
+      "75%": 1501.0,
+      "max": 2000.0
+    },
+    "comments": {
+      "count": 12000.0,
+      "mean": 504.34575,
+      "std": 288.68416003011293,
+      "min": 0.0,
+      "25%": 253.0,
+      "50%": 503.0,
+      "75%": 755.0,
+      "max": 1000.0
+    }
+  },
+  "engagement_correlation": {
+    "likes": {
+      "likes": 1.0,
+      "shares": -0.0012462874662491129,
+      "comments": 0.01001468328445946
+    },
+    "shares": {
+      "likes": -0.0012462874662491129,
+      "shares": 1.0,
+      "comments": 0.024405976987949954
+    },
+    "comments": {
+      "likes": 0.01001468328445946,
+      "shares": 0.024405976987949954,
+      "comments": 1.0
+    }
+  },
+  "top_locations": {
+    "Barcelona, Spain": 56,
+    "Shanghai, China": 56,
+    "Los Angeles, USA": 55,
+    "Munich, Germany": 54,
+    "Dubai, UAE": 53,
+    "Mumbai, India": 53,
+    "Milan, Italy": 53,
+    "Melbourne, Australia": 52,
+    "Beijing, China": 51,
+    "Houston, USA": 50,
+    "Osaka, Japan": 50,
+    "Chicago, USA": 50,
+    "Rio de Janeiro, Brazil": 49,
+    "Singapore": 49,
+    "Johannesburg, South Africa": 48
+  },
+  "language_distribution": {
+    "zh": 168,
+    "ja": 156,
+    "hi": 156,
+    "en": 153,
+    "fr": 150,
+    "es": 146,
+    "ru": 144,
+    "ar": 143,
+    "pt": 143,
+    "de": 141
+  },
+  "missingness_pct": {
+    "likes": 15.116666666666667,
+    "platform": 14.866666666666667,
+    "text_content": 14.066666666666666
+  },
+  "missingness_indicator_correlation": {
+    "platform": {
+      "platform": 1.0,
+      "text_content": -0.01411418847854039,
+      "likes": -0.0063307924387451765
+    },
+    "text_content": {
+      "platform": -0.01411418847854039,
+      "text_content": 1.0,
+      "likes": 0.007247000400023182
+    },
+    "likes": {
+      "platform": -0.0063307924387451765,
+      "text_content": 0.007247000400023182,
+      "likes": 1.0
+    }
+  }
+}
